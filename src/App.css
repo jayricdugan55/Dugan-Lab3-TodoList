@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', serif;
+}
+
+body {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.add-heading-bar {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+.input-heading {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #999;
+  width: 260px;
+  font-size: 1rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.add-heading-btn {
+  background-color: #006622;
+  color: white;
+}
+
+.delete-heading-btn {
+  background-color: #cc0000;
+  color: white;
+  padding: 0.35rem 0.7rem;
+  font-size: 0.75rem;
+}
+
+.sections-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.section-card {
+  border: 1px solid #999;
+  padding: 1.2rem;
+  width: 280px;
+}
+
+.section-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.section-heading {
+  font-size: 1.2rem;
+}
+
+.items-list {
+  list-style: none;
+  margin-bottom: 0.8rem;
+}
+
+.item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.delete-x-btn {
+  background-color: #cc0000;
+  color: white;
+  border: none;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+.add-item-bar {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.input-item {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #999;
+}
+
+.add-item-btn {
+  background-color: #006622;
+  color: white;
+  padding: 0.5rem 0.8rem;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+
+
+
